@@ -23,8 +23,20 @@ p{
 }
 
 .btn:hover{
-    background-color: #fec63e;
     color: #fff;
+    border: 3px solid #fff;
+}
+
+
+.btn-default{
+    color: #000;
+    border: 3px solid #000;
+}
+
+.btn-default:hover{
+    color: #000;
+    background-color: #fec63e;
+    border: 3px solid #000;
 }
 
 .subtitulo{ 
@@ -56,6 +68,7 @@ p{
     width: 100%;
     background-color: #fec63e;
     padding: 15px 0;
+    z-index: 10;
 }
 
 .header-menu{
@@ -170,4 +183,13 @@ section.produtos {
     padding: 20px;
 }
 
+.call-to-action{
+    text-align: center;
+    padding-top: 40px;
+    clear: both;
+}
+
+.call-to-action p{
+    margin-bottom: 20px;
+}
 
