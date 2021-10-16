@@ -10,6 +10,9 @@ p{
     font-size: 14px;
 }
 
+img{
+    display: block;
+}
 
 .btn{
     border: 3px solid #fec63e;
@@ -101,7 +104,7 @@ p{
     width: 100%;
     background: url("../img/bg.jpg") no-repeat center ;
     background-size: cover;
-    margin-top: 95px;
+    margin-top: 92px;
     height:380px;
     text-align: center;
     padding-top: 80px;
@@ -143,15 +146,12 @@ p{
     letter-spacing: 0.1em;
 }
 
-/* produtos */
-/*
-section.produtos {
-    padding: 60px 0;
-}
-*/
-
 .produtos h2{
     padding:60px 0;
+}
+
+.produtos img{
+    margin: 0 auto;
 }
 
 .produtos-lista li{
@@ -201,4 +201,65 @@ section.produtos {
 .portfolio{
     width: 100%;
     background-color: #000;
+}
+
+.portfolio .subtitulo{ 
+    color: #fec63e;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.portfolio .subtitulo:after{
+  background-color:#fec63e;
+}
+
+.portfolio .call-to-action p{
+    color:#fec63e;
+}
+
+/*qualidade*/
+
+.qualidade .subtitulo{ 
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.qualidade:after{ 
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 226px;
+    right:162px;
+    z-index: -1;
+}
+
+.qualidade img{
+    margin: 0 auto;
+}
+
+.qualidade-lista li{
+   text-align: center;
+   padding: 20px 0;
+
+}
+
+.qualidade-lista  li h3{
+    font-weight:bold;
+    font-size:18px;
+    line-height:25px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+}
+
+.qualidade-lista  li h3:after{
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color:#000;
+    margin: 8px auto;
 }
