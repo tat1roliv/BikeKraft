@@ -280,3 +280,62 @@ img{
 }
 
 /*footer*/
+
+.footer{
+    width: 100%;
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+}
+
+
+.footer h3{ 
+    color: #fec63e;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing:.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer h3:after{
+    content: " ";
+    display: block;
+    width:60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px 0 12px 0;
+}
+
+.footer-historia{
+    padding-right: 40px;
+    margin: 20px 0;
+}
+
+.footer-contato ul li{
+    font-family: 'Georgia', Georgia, Times, serif;
+    line-height: 20px;
+    font-size: 14px;
+}
+.footer-social-media ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social-media ul li a{
+    border: 3px solid #fec63e ;
+    display: block;
+    padding: 5px;
+}
+
+.footer-social-media ul li a:hover{
+    border-color: white;
+}
+
+.copy{
+    width: 100%;
+    background-color: #fec63e ;
+    padding: 20px 0;
+    color: #000;
+   text-align: center;
+}
