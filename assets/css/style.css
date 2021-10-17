@@ -97,7 +97,7 @@ img{
     text-decoration: none;
 }
 
-
+/* HOME */
 /* intro */
 
 .introducao {
@@ -243,6 +243,7 @@ img{
 .qualidade-lista li{
    text-align: center;
    padding: 20px 0;
+   overflow: hidden;
 
 }
 
@@ -309,7 +310,7 @@ img{
 
 .footer-historia{
     padding-right: 40px;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .footer-contato ul li{
@@ -337,5 +338,81 @@ img{
     background-color: #fec63e ;
     padding: 20px 0;
     color: #000;
-   text-align: center;
+    text-align: center;
 }
+
+/* SOBRE */
+
+/* intro internas */
+
+.introducao-internas{
+    width:100%;
+    margin-top: 92px;
+    height:160px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.interna-sobre{
+    background:  url("../img/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.introducao-internas h1{  
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase; 
+
+}
+
+.introducao-internas h1:after{
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color:white;
+    margin: 8px auto;
+}
+
+.missao-sobre{
+    padding-top: 60px;
+}
+
+.foto-equipe{
+    padding-top: 20px;
+}
+
+.missao-sobre p {
+    font-size:18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+}
+
+.missao-sobre ul li{
+    font-family: Georgia;
+    line-height: 30px;
+}
+
+.subtitulo-interno{
+    font-size:24px;
+    line-height: 28px;
+    font-weight: bold;
+    letter-spacing:0.1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno:after{
+    content: "";
+    display: block;
+    width:60px;
+    height:3px;
+    background:#000;
+    margin: 8px 0;
+}
+
+
+
