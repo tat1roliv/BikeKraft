@@ -240,7 +240,7 @@ img{
     margin: 0 auto;
 }
 
-.qualidade-lista li{
+.qualidade-lista {
    text-align: center;
    padding: 20px 0;
    overflow: hidden;
