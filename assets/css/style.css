@@ -97,6 +97,11 @@ img{
     text-decoration: none;
 }
 
+.header-menu ul li a.menu-ativo{
+    color: #fff;
+    font-weight:bold;
+}
+
 /* HOME */
 /* intro */
 
@@ -243,8 +248,8 @@ img{
 .qualidade-lista {
    text-align: center;
    padding: 20px 0;
-   overflow: hidden;
-
+   overflow: auto; /*clear fix*/
+   margin-bottom: 60px;
 }
 
 .qualidade-lista  li h3{
