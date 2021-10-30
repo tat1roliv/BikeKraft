@@ -564,6 +564,10 @@ img{
 
 }
 
+.orcamento-dados{
+    color: #fff;
+}
+
 .orcamento-dados h3{
     font-size:18px;
     text-transform: uppercase;
@@ -575,4 +579,28 @@ img{
 .orcamento-dados span{
     display: block;
     font-weight: bold;
+    line-height:30px;
+    font-family: Georgia, serif;
+}
+
+.orcamento-dados .dados-email{
+    margin-bottom: 40px;
+}
+
+.orcamento-dados p{
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 20px 10px;
+}
+
+.orcamento-dados ul li{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding:7px  10px ;
+}
+.orcamento-dados ul li:nth-child(odd){
+ background-color:rgb(65, 65, 65);
 }
