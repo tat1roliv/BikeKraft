@@ -615,3 +615,25 @@ padding-top: 40px;
 padding-bottom: 40px;
 
 }
+
+.quote-cliente{
+    padding: 60px 0;
+    max-width:500px;
+    margin: 0 auto;
+}
+
+.quote-cliente p{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+
+}
+
+.quote-cliente cite{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+}
