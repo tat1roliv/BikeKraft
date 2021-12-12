@@ -821,7 +821,18 @@ padding-bottom: 40px;
         height: 26px;
     }
 
+    .missao-sobre p {
+        font-size:14px;
+        line-height: 25px;
+        padding-right: 0px;
+    }
 
+
+    .missao-sobre ul li {
+        font-size:14px;
+        line-height: 25px;
+
+    }
 }
 
 /*sm*/
@@ -862,7 +873,17 @@ padding-bottom: 40px;
         display: none;
        }
 
+    .missao-sobre p {
+        font-size:14px;
+        line-height: 25px;
+        padding-right: 0px;
+    }
 
+    .missao-sobre ul li {
+        font-size:14px;
+        line-height: 25px;
+
+    }
 }
 
 
