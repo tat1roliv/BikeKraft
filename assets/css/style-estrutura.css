@@ -1,7 +1,7 @@
 header{
     width: 800px;
     height: 60px;
-    background: tomato;
+    /* background: tomato;*/
     padding: 20px 0;
 }
 
@@ -62,4 +62,15 @@ footer {
     height:50px;
     position:absolute;
     
+}
+
+/*  media queries */
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+
+
+    .container{
+        width:768px;
+    }
+
 }
