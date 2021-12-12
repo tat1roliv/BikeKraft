@@ -847,7 +847,6 @@ padding-bottom: 40px;
         padding: 41px 0px;
     }
 
-    
     .produto-info p{
         font-size: 14px;
         line-height: 20px;
@@ -857,7 +856,6 @@ padding-bottom: 40px;
 
     
     .produto-info ul li{
-
         width: 181px;
         height: 49px;
         text-align: center;
@@ -942,7 +940,8 @@ padding-bottom: 40px;
         font-size: 14px;
         line-height:20px;
     }
-    .form {
+    .form,
+    .contato-form {
         padding-right: 0px;
     }
 }
