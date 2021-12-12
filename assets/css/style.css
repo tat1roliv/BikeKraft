@@ -774,12 +774,18 @@ padding-bottom: 40px;
         padding-bottom: 0px;
     }
 
+    .header .container{
+        display: flex;
+    }
+
     .header img{
-        margin: 0 auto 10px auto;
+        margin: 0 auto;
+        align-self: center;
     }
 
     .header-menu{
         text-align: center;
+        margin: 0 auto;
     }
 
     .header-menu ul li{
@@ -796,7 +802,6 @@ padding-bottom: 40px;
         border: 2px solid  #fff;
     }
 
-    
     .introducao {
     margin-top: 0px;
     padding-top: 40px;
@@ -810,7 +815,6 @@ padding-bottom: 40px;
         padding: 10px 0;
      }
 
-
     .footer-social-media ul li a img{
         width: 26px;
         height: 26px;
@@ -820,6 +824,33 @@ padding-bottom: 40px;
 
 /*sm*/
 @media only screen and (max-width: 787px) {
+
+    .header img{
+        margin: 0 auto;
+        align-self: center;
+    }
+
+    .header-menu{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .header-menu ul li a{
+        border: 2px solid #000;
+        width:120px;
+        display: block;
+        float:left;
+     }
+     
+    .header-menu ul li{
+        margin: 5px;
+    }
+
+    .introducao {
+        margin-top: 180px;
+        padding-top: 40px;
+    }
+
 
 }
 
