@@ -802,7 +802,8 @@ padding-bottom: 40px;
         border: 2px solid  #fff;
     }
 
-    .introducao {
+    .introducao ,
+    .introducao-internas {
     margin-top: 0px;
     padding-top: 40px;
     }
@@ -819,6 +820,7 @@ padding-bottom: 40px;
         width: 26px;
         height: 26px;
     }
+
 
 }
 
@@ -846,7 +848,8 @@ padding-bottom: 40px;
         margin: 5px;
     }
 
-    .introducao {
+    .introducao,
+    .introducao-internas {
         margin-top: 180px;
         padding-top: 40px;
     }
@@ -854,7 +857,7 @@ padding-bottom: 40px;
     .introducao h1{
         font-size:36px;
     }
-    
+
     .qualidade:after{ 
         display: none;
        }
