@@ -8,14 +8,14 @@ require "./PHPMailer/src/PHPMailer.php";
 require "./PHPMailer/src/SMTP.php";
   
 // Mudar Aqui o e-mail
-$email_envio = ""; // E-mail do site (ex: contato@seusite.com)
-$email_pass = ""; // Senha do e-mail
+$email_envio = "contato@hospedagem.com"; // E-mail do site (ex: contato@seusite.com)
+$email_pass = "senha@123"; // Senha do e-mail
 
 $site_name = "Bikcraft"; // Nome do Site
 $site_url = "www.bikcraft.com"; // URL do Site
 
-$host_smtp = ""; // HOST SMTP Ex: smtp.domain.com.br
-$host_port = ""; // Porta do Host, geralmente 465 ou 587
+$host_smtp = "smtp.hospedagem.dreamhost.com"; // HOST SMTP Ex: smtp.domain.com.br
+$host_port = "587"; // Porta do Host, geralmente 465 ou 587
 
 
 // Não mudar abaixo:
@@ -81,7 +81,7 @@ try {
   <html>
     <head>
       <title>Erro no envio</title>
-      <meta http-equiv="refresh" content="10;URL="./"">
+      <meta http-equiv="refresh" content="10;URL=./">
     </head>
     <body>
       <!-- Mensagem de erro -->
