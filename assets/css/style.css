@@ -1,11 +1,11 @@
 /* geral =========================================  */
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica;
 }
 
 p{
-    font-family: 'Georgia', Georgia, Times, serif;
+    font-family: 'Georgia', Georgia, Times;
     line-height: 20px;
     font-size: 14px;
 }
@@ -319,7 +319,7 @@ img{
 }
 
 .footer-contato ul li{
-    font-family: 'Georgia', Georgia, Times, serif;
+    font-family: 'Georgia', Georgia, Times;
     line-height: 20px;
     font-size: 14px;
 }
@@ -521,7 +521,7 @@ img{
 
 .form label{
     display: block;
-    font-family: Georgia, serif;
+    font-family: Georgia;
     color:#fff;
     font-size: 18px;
     line-height: 25px;
@@ -538,7 +538,7 @@ img{
     margin-bottom: 10px;
     outline: none;
     font-size: 14px;
-    font-style: serif;
+    
 }
 
 
@@ -553,7 +553,7 @@ img{
     margin-bottom: 20px;
     outline: none;
     font-size: 14px;
-    font-style: serif;
+    
 }
 
 .form button{
@@ -578,7 +578,7 @@ img{
     display: block;
     font-weight: bold;
     line-height:30px;
-    font-family: Georgia, serif;
+    font-family: Georgia;
 }
 
 .orcamento-dados .dados-email{
@@ -587,14 +587,14 @@ img{
 
 .orcamento-dados p{
     display: block;
-    font-family: Georgia, serif;
+    font-family: Georgia;
     font-size: 18px;
     line-height: 25px;
     margin: 20px 10px;
 }
 
 .orcamento-dados ul li{
-    font-family: Georgia, serif;
+    font-family: Georgia;
     font-size: 16px;
     line-height: 25px;
     padding:7px  10px ;
@@ -624,7 +624,7 @@ padding-bottom: 40px;
 
 .quote-cliente p{
     text-align: center;
-    font-family: Georgia, serif;
+    font-family: Georgia;
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 20px;
@@ -657,7 +657,7 @@ padding-bottom: 40px;
 
 .contato-form label{
     display: block;
-    font-family: Georgia, serif;
+    font-family: Georgia;
     color:#000;
     font-size: 18px;
     line-height: 25px;
@@ -674,7 +674,7 @@ padding-bottom: 40px;
     margin-bottom: 10px;
     outline: none;
     font-size: 14px;
-    font-style: serif;
+    
 }
 
 
@@ -689,7 +689,6 @@ padding-bottom: 40px;
     margin-bottom: 20px;
     outline: none;
     font-size: 14px;
-    font-style: serif;
 }
 
 .contato-form button{
@@ -712,7 +711,7 @@ padding-bottom: 40px;
 .contato-dados span{
     display: block;
     line-height:30px;
-    font-family: Georgia, serif;
+    font-family: Georgia;
 }
 
 .contato-dados{
@@ -721,7 +720,7 @@ padding-bottom: 40px;
 
 .contato-dados p{
     display: block;
-    font-family: Georgia, serif;
+    font-family: Georgia;
     font-size: 18px;
     line-height: 25px;
     margin: 20px 10px;
@@ -737,7 +736,7 @@ padding-bottom: 40px;
 }
 
 .contato-dados ul li{
-    font-family: Georgia, serif;
+    font-family: Georgia;
     font-size: 16px;
     line-height: 25px;
     padding:7px  10px ;
